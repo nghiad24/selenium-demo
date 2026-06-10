@@ -26,7 +26,7 @@ public class LoginFailureTest {
                 .sendKeys("standard_user");
 
         driver.findElement(By.id("password"))
-                .sendKeys("123456");
+                .sendKeys("secret_sauce");
 
         driver.findElement(By.id("login-button"))
                 .click();
