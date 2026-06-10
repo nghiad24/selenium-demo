@@ -1,4 +1,4 @@
-package com.DinhVanNghia;
+package com.nghia;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
