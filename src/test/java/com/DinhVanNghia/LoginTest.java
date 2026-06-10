@@ -60,7 +60,7 @@ public class LoginTest {
         driver.findElement(By.id("login-button"))
                 .click();
 
-        Assert.assertTrue(
+        Assert.assertFalse(
                 driver.getCurrentUrl().contains("inventory")
         );
 
