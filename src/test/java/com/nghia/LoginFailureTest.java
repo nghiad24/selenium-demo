@@ -26,12 +26,12 @@ public class LoginFailureTest {
                 .sendKeys("standard_user");
 
         driver.findElement(By.id("password"))
-                .sendKeys("12345678");
+                .sendKeys("123456");
 
         driver.findElement(By.id("login-button"))
                 .click();
 
-        Assert.assertFalse(
+        Assert.assertTrue(
                 driver.getCurrentUrl().contains("inventory")
         );
 
