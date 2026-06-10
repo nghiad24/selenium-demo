@@ -1,4 +1,4 @@
-name: Selenium Test
+name: Login Success Test
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
           java-version: 17
 
       - name: Run Maven Test
-        run: mvn clean test
+        run: mvn clean test -Dtest=LoginSuccessTest
