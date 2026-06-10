@@ -1,4 +1,4 @@
-package com.example;
+package com.DinhVanNghia;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +26,7 @@ public class LoginTest {
                 .sendKeys("standard_user");
 
         driver.findElement(By.id("password"))
-                .sendKeys("123456");
+                .sendKeys("secret_sauce");
 
         driver.findElement(By.id("login-button"))
                 .click();
